@@ -1,0 +1,176 @@
+
+@font-face{
+	font-family: PTSans-Regular;
+	font-style:  normal;
+	font-weight:  normal;
+	src:url("fuentes/Handlee-Regular.ttf");
+}
+
+@font-face{
+	font-family: TradeWinds-Regular;
+	font-style:  normal;
+	font-weight:  normal;
+	src:url("fuentes/OdibeeSans-Regular.ttf");
+}
+
+
+body{	
+
+	font-family: PTSans-Regular;
+	font-size: 17.5px;
+}
+
+html{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #5d0a28 !important; 
+}
+
+.txt-h1{
+	font-family: TradeWinds-Regular;
+	color: #4F4F4F;
+}
+
+.txt-h1:hover{
+	color: #5d0a28 !important; 
+}
+
+
+
+.input{
+	width: 75%;
+}
+
+.ico{
+	font-size: 30px;
+}
+.texto-evaluacion{
+
+	text-align: left;
+	font-weight: bold
+}
+
+.texto-evaluacion:hover{
+
+	color: #5d0a28; 
+}
+
+.fondo{
+	
+	background: url('../utileria/img/bg2.jpg');
+
+	margin: auto;
+	height: 100%;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+
+.iconos{
+	
+}
+
+/*//////////////////////MEDIA QUERIEs//////////////////////*/
+
+
+/*MEDIA QUERIES TABLET--------------------------------------*/
+@media(min-width: 768px) and (max-width: 1190px), handheld and (orientation: landscape){
+
+
+	.card{
+		width: 20rem !important;
+	}	
+}
+
+
+
+
+/*MEDIA QUERIES TABLET--------------------------------------*/
+
+
+
+
+
+/*MEDIA QUERIES CELULARES--------------------------------------*/
+@media screen and (max-width: 767px){
+
+	.fondo{
+		display: none !important;
+	}
+
+	.card{
+		width: 17.5rem !important;
+		margin: auto;
+	}	
+
+	footer {
+		
+		text-align: center;
+		background-color: #F2F2F2;
+	}
+
+	.img-instruc{
+
+
+	width: 102% !important;
+
+
+	}
+	
+	.imgfooter{
+		display:block;
+		margin:auto;
+	}
+
+	.copi{
+		padding: 10px !important;
+	}
+
+
+}
+
+
+/*MEDIA QUERIES CELULARES--------------------------------------*/
+
+
+
+/*///////////////footer/////////////////////////////////*/
+
+.footer-espacio{
+	padding-top: 100px;
+	position: relative;
+	width: 100%;
+}
+
+footer {
+	background-color: #F2F2F2;
+	text-decoration: none !important;
+}
+
+
+
+.fondo-footer{
+	background: #5d0a28; 
+} 
+
+
+
+.copyright{
+	text-align: center !important;
+	color: white;
+
+
+}
+
+
+
+
+
